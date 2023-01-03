@@ -3,6 +3,7 @@
 
 
 class LockedClass:
-    """This class prevents a user from creating any attribute other than 'first_name' for any instance of this class
+    """
+    This class prevents a user from creating any attribute other than 'first_name' for any instance of this class
     """
     __slots__ = ['first_name']
